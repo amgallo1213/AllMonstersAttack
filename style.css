@@ -114,3 +114,16 @@ footer  {
     height: 60px;
     margin-top: 60px;
 }
+
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .h1 {
+        font-size: 3em;
+    }
+    .h1_div {
+        margin-left: 0;
+    }
+}

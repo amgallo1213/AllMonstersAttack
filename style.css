@@ -1,0 +1,116 @@
+/* font-family: "Plus Jakarta Sans", sans-serif;
+font-family: "Kanit", sans-serif; */
+
+/* CSS HEX
+--citrine: #EDDB15ff;
+--finn: #562C65ff;
+--cerise: #E13469ff;
+--tiffany-blue: #7CD1C8ff;
+--china-rose: #935264ff;
+
+/* CSS HSL */
+/* --citrine: hsla(55, 86%, 51%, 1);
+--finn: hsla(284, 39%, 28%, 1);
+--cerise: hsla(342, 74%, 54%, 1);
+--tiffany-blue: hsla(174, 48%, 65%, 1);
+--china-rose: hsla(343, 28%, 45%, 1); */
+
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-right: linear-gradient(90deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-bottom: linear-gradient(180deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-left: linear-gradient(270deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-top-right: linear-gradient(45deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-bottom-right: linear-gradient(135deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-top-left: linear-gradient(225deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-bottom-left: linear-gradient(315deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);
+$gradient-radial: radial-gradient(#EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff);  */
+
+
+
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    background-color: #EDDB15ff;
+    /* background-color: #FFDD00; */
+}
+
+a,
+.address   {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-decoration: none;
+    color: #562C65ff;
+    font-weight: bold;
+}
+
+li  {
+    list-style-type: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.h1  {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #E13469;
+    font-size: 6em;
+    margin-bottom: -20px;
+}
+
+p   {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #562C65ff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-links-left, .nav-links-right  {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+}
+
+.nav_link   {
+    padding-right: 16px;
+}
+
+main   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+header  {
+    display: flex;
+    flex-direction: row;
+    padding-top: 36px;
+}
+
+.h1_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+/* .main-img   { */
+    /* height: 100vh; */
+    /* transform: rotate(-90deg); */
+    /* position: relative; */
+/* } */
+
+footer  {
+    padding: 24px;
+    height: 60px;
+    margin-top: 60px;
+}

@@ -142,6 +142,10 @@ footer  {
     padding: 24px;
     height: 60px;
     margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
     /* background-image: linear-gradient(45deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff); */
 
 }
@@ -149,10 +153,21 @@ footer  {
 
 
 @media (max-width: 600px) {
-    header, .container_row {
+    header {
         display: flex;
         flex-direction: column;
     }
+    .container_row  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    /* footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
     .h1 {
         font-size: 3em;
     }

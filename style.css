@@ -62,9 +62,23 @@ li  {
     margin-bottom: -20px;
 }
 
+h2  {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #562C65ff;
+}
+
+h3  {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #935264;
+}
+
 p   {
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #562C65ff;
+}
+
+@view-transition {
+    navigation: auto;
 }
 
 nav {
@@ -103,17 +117,36 @@ header  {
     margin-left: 24px;
 }
 
-/* .main-img   { */
-    /* height: 100vh; */
-    /* transform: rotate(-90deg); */
-    /* position: relative; */
-/* } */
+/* .section_container  {
+    margin-top: 40px;
+    width: 100vw;
+} */
+
+.container {
+    margin-top: 40px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_row  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
 
 footer  {
     padding: 24px;
     height: 60px;
     margin-top: 60px;
+    /* background-image: linear-gradient(45deg, #EDDB15ff, #562C65ff, #E13469ff, #7CD1C8ff, #935264ff); */
+
 }
+
+
 
 @media (max-width: 600px) {
     header {

@@ -150,6 +150,32 @@ header  {
 }
 
 
+.main   {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-wrapper {
+    margin: 40px;
+}
+
+.menu-grid {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1.2rem;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+
 footer  {
     padding: 24px;
     height: 60px;
